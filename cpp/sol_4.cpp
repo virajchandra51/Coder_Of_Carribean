@@ -114,17 +114,11 @@ void solve()
     string p2 = v[b].substr(v[b].size()-a);
     reverse(all(p2));
     v[c]+=p2;
-    v[b] = p1;
-
+    v[b]=p1;
   }
   string ans = "";
   rep(i,n)
-  {
-    if(v[i].size()==0)
-    ans+=" ";
-    else
-    ans+=v[i][v[i].size()-1];
-  }
+  ans+=v[i][v[i].size()-1];
   cout<<ans<<endl;
 }
 
