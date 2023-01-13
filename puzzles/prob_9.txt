@@ -1,0 +1,51 @@
+--- 9 ---
+
+You have reached the Door to the treasure hunt.
+
+But the key to open the door is nowhere to be found.
+
+Since you are a smart captain, period, you decide to bomb down the whole door with gunpowder from the ship. BADASS.
+To figure out the quantity of the gunpowder you need, you assess the wood strength of the door.
+
+Your puzzle input consists of a list of binary numbers which, when decoded properly, can tell you many useful things about the conditions of the door. From that, you can easily figure out your required quaninty of explosive.
+
+You need to use the binary numbers in the puzzle input to generate two new binary numbers (called the wood texture index and wood age index). The wood strength can then be found by multiplying the two indexes.
+
+Each bit in the wood texture index can be determined by finding the most common bit in the corresponding position of all numbers in the input puzzle. 
+
+The first line of input contains an integer 𝑛 — the number of binary numbers.
+The following set of N lines of input contains:
+    - S, a binary string consisting of either '1' or '0'.
+
+For example, given the following input puzzle:
+
+12
+00100
+11110
+10110
+10111
+10101
+01111
+00111
+11100
+10000
+11001
+00010
+01010
+
+Considering only the first bit of each number, there are five 0 bits and seven 1 bits. Since the most common bit is 1, the first bit of the wood texture index is 1.
+
+The most common second bit of the numbers in the input puzzle is 0, so the second bit of the wood texture index is 0.
+
+The most common value of the third, fourth, and fifth bits are 1, 1, and 0, respectively, and so the final three bits of the wood texture index are 110.
+
+So, the wood texture index is the binary number 10110, or 22 in decimal.
+
+The wood age index is calculated in a similar way; rather than use the most common bit, the least common bit from each position is used. So, the wood age index is 01001, or 9 in decimal. Multiplying the wood texture index (22) by the wood age index (9) produces the wood strength or your desired gunpowder quantity, 198.
+
+Use the binary numbers in your input puzzle to calculate the wood texture index and wood age index, then multiply them together. What is the wood strength or your desired gunpowder quantity of the door? (Be sure to represent your answer in decimal, not binary.)
+
+
+
+//Answer
+Your puzzle answer was 2972336.

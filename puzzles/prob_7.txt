@@ -1,0 +1,37 @@
+--- 7 ---
+
+The preparations are finally complete. you and the Pirates leave camp on foot and begin to make your way toward the jungles to the treasure.
+
+As you move through the dense undergrowth, one of the Pirates gives you a magic wand. He says that it has many fancy features, but the most important one is a communication system between the jungles animals and yourself for guidance to the treasure.
+
+However, because he's heard you have significant experience dealing with magic, he convinced the other Pirates that it would be okay to give you their one malfunctioning wand - surely you'll have no problem fixing it.
+
+As if inspired by comedic timing, the wand emits a few colorful sparks.
+
+To be able to communicate with the jungle fauna, the wand needs to lock on to their language. The language is a series of seemingly-random characters that the wand receives one at a time.
+
+To fix the wand's magic, you need write down the language the wand receives. According to the Pirates, the start of a message is indicated by a sequence of four characters that are all different.
+
+The wand will send your language message(your puzzle input); your task is to identify the first position where the four most recently received characters were all different. Specifically, it needs to report the number of characters from the beginning of the input to the end of the first such four-character marker.
+
+The first line of input contains an string s - The language message
+
+For example, suppose you receive the following datastream buffer:
+
+mjqjpqmgbljsphdztnvjfqwrcgsmlb
+After the first three characters (mjq) have been received, there haven't been enough characters received yet to find the marker. The first time a marker could occur is after the fourth character is received, making the most recent four characters mjqj. Because j is repeated, this isn't a marker.
+
+The first time a marker appears is after the seventh character arrives. Once it does, the last four characters received are jpqm, which are all different. In this case, your subroutine should report the value 7, because the first start-of-message marker is complete after 7 characters have been processed.
+
+Here are a few more examples:
+
+bvwbjplbgvbhsrlpgdmjqwftvncz: first marker after character 5
+nppdvjthqldpwncqszvftbrmjlhg: first marker after character 6
+nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg: first marker after character 10
+zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw: first marker after character 11
+
+How many characters need to be processed before the first start of the message is detected?
+
+
+//Answers
+Your puzzle answer was 1651.

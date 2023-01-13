@@ -1,0 +1,67 @@
+STORY LINE
+
+You, the Captain of the Ship "CodeUtsava 6.0", have just discovered the location of an invaluable treasure, hidden in the remote jungles of [] on the island [Codesia].
+
+You have brought your pirate crew for a treasure hunting expedition to the island where the treasure resides.
+
+To quench your thirst of greed (LOL), the expedition needs to retrieve maximum number of coins from the treasure. Although your faithful pirates assure you that they are capable enough to carry out this task, you know, they are just a bunch of BONEHEADS.
+
+Help your Pirate Crew to collect coins by solving puzzles. Each puzzle grants one coin, and hint to the next puzzle. Good luck!
+
+// Explaination
+
+You will be given 10 PassCode Protected PDFs, each containing a coding problem with a sample INPUT/OUTPUT, as an explaination the given statement.
+
+Along with this, each problem will be provided with an INPUT file, for which you are required to code an algorithm in order to find it's desired OUTPUT. Your algorithm can be developed in any Coding Language you prefer.
+
+OUTPUT of a previous PDF problem statement will be the PassCode to unlock the next PDF problem statement.
+
+Higher the number of your unlocked PDFs, higher is your coin collection, and greater are your REWARDS. 
+
+P.S. - The First PDF is unlocked for you.
+
+Happy Hunting!
+
+// Explaination
+
+--- 1 ---
+
+The jungle must be too overgrown and difficult to navigate, hence the Pirates' expedition traditionally goes on foot. As your Ship approaches the land, the Pirates begin taking inventory of their supplies. 
+One important consideration is food - in particular, Calories each Pirate is carrying 
+(your puzzle input).
+
+The Pirates take turns writing down Calories contained by the various meals, snacks, rations, etc. that they've brought with them.
+
+The first line of input contains an integer 𝑛 — the number of Pirates in the crew.
+The following set of 2*N lines of input contains:
+    - K, the number of supplies in a Pirate's Inventory
+    - 𝑎1,𝑎2,…,𝑎k - the number of Calories each supply contains
+
+For example, suppose the Pirates finish writing their inventory and end up with the following list:
+
+5
+3
+1000 2000 3000
+1
+4000
+2
+5000 6000
+3
+7000 8000 9000
+1 
+10000
+
+This above input represents the supply count and their respective calories, carried by five Pirates:
+
+The first Pirates is carrying food with 1000, 2000, and 3000 Calories, a total of 6000 Calories.
+The second Pirates is carrying one food item with 4000 Calories.
+The third Pirates is carrying food with 5000 and 6000 Calories, a total of 11000 Calories.
+The fourth Pirates is carrying food with 7000, 8000, and 9000 Calories, a total of 24000 Calories.
+The fifth Pirates is carrying one food item with 10000 Calories.
+
+In case the Pirates get hungry and need extra snacks, they need to know which Pirate to ask: they'd like to know how many Calories are being carried by the Pirate carrying the most Calories. In the example above, this is 24000 Calories. (carried by the fourth Pirate).
+
+Find the Pirate carrying the most Calories. How many total Calories is that Pirate carrying?
+
+//ANSWER
+Your puzzle answer was 67450.

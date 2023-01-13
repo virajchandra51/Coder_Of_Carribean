@@ -1,0 +1,25 @@
+--- 10 ---
+
+You have REACHED the Final Coin in the Treasure, but oh oh, it has n locks.
+
+Find 3 lock values sum to 2023, to open the treasure.
+
+The first line of input contains an integer 𝑛 — the number of locks on the treasure box.
+The following set of N lines of input contains:
+- K, the lock value
+
+For example, suppose your input contained the following:
+
+6
+1721
+979
+369
+299
+675
+1456
+
+Using the above example again, the three lock values that sum to 2023 are 979, 369, and 675. Multiplying them together produces the answer, 243844425.
+
+Find the product of the three lock values that sum to 2023.
+
+Your puzzle answer was 262871040.
