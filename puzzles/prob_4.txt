@@ -7,18 +7,18 @@ The ship has a giant cargo crane capable of moving crates between stacks. To ens
 The Pirates don't want to interrupt the crane operator during this delicate procedure, but they forgot to ask her which crate will end up where, and they want to be ready to unload them as soon as possible so they can embark.
 
 
-
 They do, however, have a drawing of the starting stacks of crates and the rearrangement procedure (your puzzle input). 
 
 The first line of input contains an integer 𝑛 — the number of stacks in the ship.
 The following set of N lines of input contains:
-        - S, a string denoting the stack from the bottom crate, i.e, the first letter denotes the bottomost crate and so on.
+        - S, a string denoting the stack from the bottom crate, i.e, the first letter denotes the bottomost crate and so on. (1<=S<=10)
 Next line of input contains an integer m - the number of instructions to be followed by the crane.
 The folowing set of M lines of input contains:
-        - A,B,C - First number A denotes the number of crates to be removed, Second number B denotes position in stacks to be removed from, Third number C denotes position in stacks to be finally put to.
+        - A,B,C - First number A denotes the number of crates to be removed, Second number B denotes position in stacks to be removed from, Third number C denotes position in stacks to be finally put to. (1<=A,B,C<=100)
 
 For example:
 
+INPUT
 3
 ZN
 MCD
@@ -28,6 +28,9 @@ P
 3 1 3
 2 2 1
 1 1 2
+
+OUTPUT
+CMZ
 
 In this example, there are three stacks of crates. Stack 1 contains two crates: crate Z is on the bottom, and crate N is on top. Stack 2 contains three crates; from bottom to top, they are crates M, C, and D. Finally, stack 3 contains a single crate, P.
 
@@ -61,7 +64,7 @@ Finally, one crate is moved from stack 1 to stack 2:
 [C] [M] [P]
  1   2   3
 
-The Pirates just need to know which crate will end up on top of each stack; in this example, the top crates are C in stack 1, M in stack 2, and Z in stack 3, so you should combine these together and give the Pirates the message CMZ.
+The Pirates just need to know which crate will end up on top of each stack; in this example, the top crates are C in stack 1, M in stack 2, and Z in stack 3, so you should combine these together and give the Pirates the message "CMZ".
 
 After the rearrangement procedure completes, what crate ends up on top of each stack?
 

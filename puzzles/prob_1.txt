@@ -34,11 +34,15 @@ The Pirates take turns writing down Calories contained by the various meals, sna
 
 The first line of input contains an integer 𝑛 — the number of Pirates in the crew.
 The following set of 2*N lines of input contains:
-    - K, the number of supplies in a Pirate's Inventory
-    - 𝑎1,𝑎2,…,𝑎k - the number of Calories each supply contains
+    - K, the number of supplies in a Pirate's Inventory (1<=K<=20)
+    - 𝑎1,𝑎2,…,𝑎k - the number of Calories each supply contains (1<=𝑎i<=10^4)
+
+Note that, the sum of Calories each supply contains for each Pirate's Inventory does not exceed 10^9.
 
 For example, suppose the Pirates finish writing their inventory and end up with the following list:
 
+
+INPUT
 5
 3
 1000 2000 3000
@@ -51,6 +55,9 @@ For example, suppose the Pirates finish writing their inventory and end up with 
 1 
 10000
 
+OUTPUT
+24000
+
 This above input represents the supply count and their respective calories, carried by five Pirates:
 
 The first Pirates is carrying food with 1000, 2000, and 3000 Calories, a total of 6000 Calories.
@@ -59,7 +66,7 @@ The third Pirates is carrying food with 5000 and 6000 Calories, a total of 11000
 The fourth Pirates is carrying food with 7000, 8000, and 9000 Calories, a total of 24000 Calories.
 The fifth Pirates is carrying one food item with 10000 Calories.
 
-In case the Pirates get hungry and need extra snacks, they need to know which Pirate to ask: they'd like to know how many Calories are being carried by the Pirate carrying the most Calories. In the example above, this is 24000 Calories. (carried by the fourth Pirate).
+In case the Pirates get hungry and need extra snacks, they need to know which Pirate to ask: they'd like to know how many Calories are being carried by the Pirate carrying the most Calories. In the example above, this is 24000 Calories.
 
 Find the Pirate carrying the most Calories. How many total Calories is that Pirate carrying?
 

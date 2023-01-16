@@ -14,15 +14,21 @@ The winner of the whole tournament is the player with the highest score. Your to
 
 Since you can't be sure if the Pirate is trying to help you or trick you, you should calculate the score you would get if you were to follow the strategy guide.
 
-The first line of input contains an integer 𝑛 — the number of guided instructions by the Pirate.
+The first line of input contains an integer 𝑛 — the number of guided instructions by the Pirate. (1<=n<=10^5)
 The following set of N lines of input contains:
     - c1, c2 - First Character c1 denoting what your opponent is going to play, Second Character c2 denoting what you should play as per the Pirate instruction
 
 For example, suppose you were given the following strategy guide:
+
+INPUT
 3
 A Y
 B X
 C Z
+
+OUTPUT
+15
+
 This strategy guide predicts and recommends the following:
 
 In the first round, your opponent will choose Rock (A), and you should choose Paper (Y). This ends in a win for you with a score of 8 (2 because you chose Paper + 6 because you won).

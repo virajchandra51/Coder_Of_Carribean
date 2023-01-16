@@ -10,10 +10,11 @@ An area of 3 locations combined together is termed as HABITABLE, if the sum of t
 
 The first line of input contains an integer 𝑛 — the number of locations in the report.
 The following set of N lines of input contains:
-    - T, the number of trees in that particular location.
+    - T, the number of trees in that particular location. (1<=T<=10^5)
 
 For example, suppose you had the following report:
 
+INPUT
 10
 199
 200
@@ -25,6 +26,9 @@ For example, suppose you had the following report:
 269
 260
 263
+
+OUTPUT
+5
 
 This report indicates that the tree count is of 199, 200, 208, 210, and so on.
 
