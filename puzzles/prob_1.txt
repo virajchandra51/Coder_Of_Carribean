@@ -1,23 +1,19 @@
 STORY LINE
 
-You, the Captain of the Ship "CodeUtsava 6.0", have just discovered the location of an invaluable treasure, hidden in the remote jungles of [] on the island [Codesia].
-
+You, the Captain of the Ship "CodeUtsava 6.0", have just discovered the location of an invaluable treasure, hidden in the remote jungles on the island Codesia.
 You have brought your pirate crew for a treasure hunting expedition to the island where the treasure resides.
-
 To quench your thirst of greed (LOL), the expedition needs to retrieve maximum number of coins from the treasure. Although your faithful pirates assure you that they are capable enough to carry out this task, you know, they are just a bunch of BONEHEADS.
-
 Help your Pirate Crew to collect coins by solving puzzles. Each puzzle grants one coin, and hint to the next puzzle. Good luck!
 
 // Explaination
 
 You will be given 10 PassCode Protected PDFs, each containing a coding problem with a sample INPUT/OUTPUT, as an explaination the given statement.
-
+Duration of the competition will be 2 hours.
 Along with this, each problem will be provided with an INPUT file, for which you are required to code an algorithm in order to find it's desired OUTPUT. Your algorithm can be developed in any Coding Language you prefer.
-
 OUTPUT of a previous PDF problem statement will be the PassCode to unlock the next PDF problem statement.
-
-Higher the number of your unlocked PDFs, higher is your coin collection, and greater are your REWARDS. 
-
+Higher the number of your unlocked PDFs, and greater are your REWARDS. 
+Solving each problem will reward you 10 coins. You also have the option for a lifeline, using which will grant you access to the answer of the problem statement, and it will cost you 5 coins.
+The person with the highest number of coins at the end of the competition wins!
 P.S. - The First PDF is unlocked for you.
 
 Happy Hunting!
